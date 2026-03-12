@@ -1,16 +1,19 @@
-## Hi there 👋
+# Hi, I'm Minseo Kim
 
-<!--
-**alicekim07/alicekim07** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Electrical Engineering & Physics @ Sogang University
 
-Here are some ideas to get you started:
+## Interests
+- AI Hardware
+- FPGA Accelerators
+- Edge AI Systems
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Featured Projects
+
+### FPGA Systolic Array AI Accelerator
+INT8 systolic array accelerator implemented on Zynq SoC.
+
+### MobileNetV2 INT8 Quantization
+PTQ/QAT experiments for efficient edge deployment.
+
+### STM32 Embedded Systems
+Embedded sensor and display control firmware.
