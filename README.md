@@ -2,25 +2,32 @@
 
 Electrical Engineering & Physics student at Sogang University.
 
-Interested in hardware–software co-design for efficient computing systems, including FPGA accelerators, embedded platforms, and edge AI.
+I am interested in hardware-software co-design for efficient computing systems, with a foucs on FPGA accelerators, embedded platforms, and system-level performance analysis.
 
 ---
 
 ## Featured Projects
 
 ### FPGA Systolic Array AI Accelerator
-INT8 systolic-array accelerator implemented on a Zynq SoC with full HW–SW co-design.
 
-Key aspects:
-- RTL implementation of a systolic array architecture
-- AXI-based memory interface
-- System-level performance analysis and bottleneck investigation
+INT8 systolic-array accelerator implemented on a Xilinx Zynq SoC.
 
-### MobileNetV2 INT8 Quantization
-Experiments on post-training quantization (PTQ) and quantization-aware training (QAT) for efficient edge deployment.
+- Designed a systolic-array architecture in Verilog for matrix-multiplication workloads
+- Implemented HW-SW co-design using AXI DMA on Zynq platform
+- Performed Roofline modeling and runtime analysis
+- Identified memory- and host-bound bottlenecks limiting system performance
+- Integrated INT8 quantization (PTQ, selective QAT) for MobileNetV2 deployment, analyzing the trade-off between accuracy and hardware efficiency
 
-### STM32 Embedded Systems
-Embedded firmware development using STM32, including sensor interfacing, ADC data acquisition, and peripheral control.
+### STM32 Real-Time Embedded System
+
+Multi-peripheral embedded system implemented on STM32F103RB with an interrupt-driven architecture.
+
+- Designed an interrupt-based firmware architecture coordinating GPIO, ADC (DMA), USART, and timers
+- Implemented a state-machine-based user interface for clock, temperature monitoring, and passcode doorlock
+- Separated keypad input and main logic using USART-based dual-board communication
+- Used ADC + DMA for non-blocking temperature sampling
+- Implemented flash memory storage for persistent password management
+- Focused on real-time system design, avoiding blocking delays and ensuring responsive user interaction
 
 ---
 
