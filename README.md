@@ -2,7 +2,7 @@
 
 Electrical Engineering & Physics student at Sogang University.
 
-I am interested in hardware-software co-design for efficient computing systems, with a foucs on FPGA accelerators, embedded platforms, and system-level performance analysis.
+I am interested in hardware-software co-design for efficient computing systems, with a focus on FPGA accelerators, embedded platforms, and system-level performance analysis.
 
 ---
 
@@ -27,7 +27,6 @@ Multi-peripheral embedded system implemented on STM32F103RB with an interrupt-dr
 - Separated keypad input and main logic using USART-based dual-board communication
 - Used ADC + DMA for non-blocking temperature sampling
 - Implemented flash memory storage for persistent password management
-- Focused on real-time system design, avoiding blocking delays and ensuring responsive user interaction
 
 ---
 
