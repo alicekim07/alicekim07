@@ -39,7 +39,6 @@ This project strengthened my understanding of how software interacts with hardwa
 
 ## Interests
 
-- FPGA & Hardware Acceleration
-- Embedded Systems
-- Edge AI Deployment
-- System Performance Analysis
+- System-Level Performance Analysis in HW-SW Integrated Systems  
+- Hardware-Software Co-Design for Efficient Computing  
+- FPGA-Based Acceleration and Dataflow Architecture  
